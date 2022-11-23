@@ -1,4 +1,4 @@
-require_relative "../hearland_challenge"
+require_relative "../lib/heartland_challenge"
 
 describe "Photo Renaming Script" do
 	
