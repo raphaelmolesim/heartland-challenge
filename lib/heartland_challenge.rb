@@ -54,8 +54,3 @@ def rename_filename hash_cites
 	end
 	result
 end
-
-
-input = File.read("input.txt")
-output = solution(input)
-File.open("output.txt", "w+") { |f| f.puts output }
