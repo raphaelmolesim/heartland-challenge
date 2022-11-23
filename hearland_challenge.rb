@@ -6,7 +6,6 @@
   # where '<<photo_name>>', '<\<extension>>' and, '<<city_name>>' consist only of letters of the English alphabet
 
 require 'date'
-require 'debug'
 
 def solution(s)
 	output = rename_filename(assign_an_id(group_by_city(s)))
